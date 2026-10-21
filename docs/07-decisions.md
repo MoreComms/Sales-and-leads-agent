@@ -15,13 +15,13 @@
 | D15 | **Ramadan target list** | The 43 brands in [08](08-ramadan-target-brands.md) are approved as they are. |
 | D20 | **Ramadan boost** | None. P5 keeps its normal share of the balanced slate. |
 | D21 | **Sponsorship** | **No sponsorship pitching for now.** The Rahal Show hasn't launched. P5 pitches branded entertainment and Ramadan content that the brand owns; MORE Originals aren't pitched until a show launches. |
+| D3 | **Autonomy** | Charles approves every first touch, permanently. Follow-ups go out automatically within a sequence he approved, unless the contact replies. Reactivation drafts land in his Gmail for him to send. Scheduling replies can become automatic later, once earned. |
 | D22 | **Incoming requests** | The agent watches knowmore@wedomore.com and the website contact form, and drafts replies to incoming studio and brief requests for Charles. |
 
-## Last three before we build
+## Last two before we build
 
 | # | Decision | Recommendation |
 |---|---|---|
-| **D3** | **Autonomy** | Every first touch is approved by Charles, permanently. Follow-ups go out automatically within a sequence he approved, unless the contact replies. Reactivation drafts land in his Gmail for him to send. Scheduling replies can become automatic later, once earned. |
 | **D9** | **Budget** | ~$145–245/month for Phase 1, ~$360–700/month at steady state (see 06), with spend caps per play |
 | **D10** | **Stack** | TypeScript; Trigger.dev; Supabase; Google Cloud Run; Claude API; Gmail API from Charles's mailbox; Apollo → Findymail + MillionVerifier; Google Calendar; the MORE – CRM sheet kept as the team view |
 
