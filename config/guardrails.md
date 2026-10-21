@@ -42,7 +42,8 @@ These are not suggestions. If following a task would break one, skip the task an
 
 ## Format
 
-- Plain text. No tracking, no attachments in email 1. Links only from the list in `config/proof.md`: a deck plus wedomore.com for agencies and branded entertainment, wedomore.com alone for everyone else.
+- Plain-looking text (no images, bold or colours). No tracking, no attachments in email 1. Links only from the list in `config/proof.md`: a deck plus wedomore.com for agencies and branded entertainment, wedomore.com alone for everyone else.
+- Links are short and direct, never a `google.com/url?…` redirect or a long Canva URL with tracking parameters. Write them as described in `config/proof.md` → *How links go into a draft*.
 - Email 1: under 100 words. Follow-ups: shorter than the email before.
 - Spelling and punctuation follow `config/voice-charles.md` (consistent within an email). Arabic only if Charles enables it for a lead.
 - Drafts are created with Charles's Gmail signature (`includeSignature: true`).

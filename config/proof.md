@@ -20,11 +20,21 @@
 
   | Who | Link | How to phrase it |
   |---|---|---|
-  | **Agencies**, for audio or video (P1, P2, and agency contacts in P0). The deck leads with video but covers audio too. | https://canva.link/more-agencies | Share the deck, then suggest the website for more, e.g. "Here's a quick look at what we do for agencies: [link], and wedomore.com for more." |
-  | **Branded entertainment** (P5) | https://canva.link/dug4nkixl84qffj | Share the deck, then suggest the website for more, e.g. "and wedomore.com for the rest of what we do". |
+  | **Agencies**, for audio or video (P1, P2, and agency contacts in P0). The deck leads with video but covers audio too. | https://canva.link/more-agencies | Share the deck, then suggest the website for more, e.g. "Here's a quick look at what we do for agencies: [link]" then, on the next line, "And there's more at wedomore.com" |
+  | **Branded entertainment** (P5) | https://canva.link/dug4nkixl84qffj | Share the deck, then suggest the website for more, e.g. "Here's a quick look at our branded entertainment work: [link]" then "And the rest of what we do is at wedomore.com" |
   | **Everyone else** | wedomore.com | A light suggestion to visit the website, never a hard sell |
 
-  Never link deep pages (/for-agencies, /studios…) until Charles says the new site is live. **Never use the new website's launch as a reason to get in touch.**
+  Never link deep pages (/for-agencies, /studios…) until Charles says the new site is live.
+
+- **How links go into a draft (decided 21 Oct).** Charles wants links short and straight to the point, with no redirect chains.
+  - The Gmail connector rewrites every hyperlink it sees (any `<a href>`, any `https://…`, any bare `something.com`) into a long `https://www.google.com/url?q=…` redirect, and that redirect is saved into the draft and sent. So **never give it a link it can turn into a hyperlink.**
+  - Create drafts with `htmlBody` only (no `body`) plus `includeSignature: true`, and write each link as plain text split by a `<span>` so the connector doesn't recognise it. The recipient's mail app makes it clickable, pointing straight at the real address:
+    - agencies deck: `https:<span>//canva.link/more-agencies</span>`
+    - branded entertainment deck: `https:<span>//canva.link/dug4nkixl84qffj</span>`
+    - website: `<span>wedomore</span>.com`
+  - Put each link at the end of its line, with no comma or full stop straight after it. Use `<br>` for line breaks.
+  - Use the canva.link short links exactly as above. Never use the long canva.com/design/… URLs with tracking parameters.
+  - After creating a draft, read it back with `get_draft` and check that the body (above the signature) contains no `google.com/url`. If it does, delete the draft, fix the HTML and create it again. **Never use the new website's launch as a reason to get in touch.**
 
 ## Free to name (on the website)
 

@@ -71,7 +71,7 @@ Skip and record the reason in Leads (Status `skipped`) if any of these is true:
    - work address.
 
    Fix anything that fails. If it still fails, don't create the draft; note it in Leads.
-5. Create the Gmail draft: to the contact, your subject, plain-text body, `includeSignature: true`. Label its thread `MORE Agent/To review`.
+5. Create the Gmail draft: to the contact, your subject, the body as `htmlBody` only (simple `<div>` and `<br>`, links written as in `config/proof.md` → *How links go into a draft*), `includeSignature: true`. Read it back with `get_draft`: if the body above the signature contains `google.com/url`, delete it, fix it and create it again. Label its thread `MORE Agent/To review`.
 6. Update the Leads row: Status `drafted`, Draft ID, Options offered. Log it.
 
 ## 7. Reactivations (P0), up to `daily_reactivation_cap`
