@@ -35,14 +35,14 @@ Rules:
 - **Now:** account wins or moves (Campaign ME, Communicate, ArabAd, LBB), new producer hires, a campaign launch in a category MORE has voiced, the Ramadan production window (Oct–Jan).
 - **Hook:** voices in the dialect the client needs, booths in Production City or remote over Source Connect, and MORE Sound fixed pricing ("brief in, air-ready out"). Offer a short voice shortlist; it's prepared by the audio team after a yes.
 - **Ask:** "Send your next script and you'll have a quote back within the hour."
-- **Link:** https://canva.link/more-agencies
+- **Link:** https://canva.link/more-agencies, plus a light suggestion to visit wedomore.com for more
 
 ## P2 · Agency production partner (white-label)
 - **Who:** Head of Production, Executive Producer, New Business Director at agencies.
 - **Now:** account wins, pitches announced, agencies hiring producers or editors (stretched), big seasonal briefs.
 - **Hook:** "Your name. Our craft." Animatics, sonic concepts and mood films when the pitch is Thursday; extra capacity when the roster is stretched; NDAs as standard.
 - **Ask:** a brief or a studio visit.
-- **Link:** https://canva.link/more-agencies
+- **Link:** https://canva.link/more-agencies, plus a light suggestion to visit wedomore.com for more
 
 ## P3 · Studio-to-studio
 - **Who:** Executive Producer, Post Supervisor or Head of Post at production houses, post houses, dubbing and localisation companies, labels. UAE, plus international productions coming to the UAE (not Germany).

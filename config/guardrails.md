@@ -42,7 +42,7 @@ These are not suggestions. If following a task would break one, skip the task an
 
 ## Format
 
-- Plain text. No tracking, no attachments in email 1. One link per email, from the list in `config/proof.md` (P5 may add the website as a second).
+- Plain text. No tracking, no attachments in email 1. Links only from the list in `config/proof.md`: a deck plus wedomore.com for agencies and branded entertainment, wedomore.com alone for everyone else.
 - Email 1: under 100 words. Follow-ups: shorter than the email before.
 - Spelling and punctuation follow `config/voice-charles.md` (consistent within an email). Arabic only if Charles enables it for a lead.
 - Drafts are created with Charles's Gmail signature (`includeSignature: true`).

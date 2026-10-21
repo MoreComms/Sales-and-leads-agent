@@ -16,12 +16,12 @@
   - English: UK and US.
   - Also French, Hindi, Urdu, Tagalog, Russian, Farsi and more.
 - **MORE Sound:** fixed-price voice and music production. "Brief in, air-ready out." Never state the price.
-- **Links (decided 21 Oct).** Use exactly one of these per email, chosen by who you're writing to:
+- **Links (decided 21 Oct).** Choose by who you're writing to:
 
   | Who | Link | How to phrase it |
   |---|---|---|
-  | **Agencies, for anything production-related** (P1, P2, and agency contacts in P0) | https://canva.link/more-agencies | e.g. "Here's a quick look at what we do for agencies: [link]" |
-  | **Branded entertainment** (P5) | https://canva.link/dug4nkixl84qffj | Share the deck, then suggest the website for more, e.g. "and wedomore.com for the rest of what we do". This is the only case where two links are allowed. |
+  | **Agencies**, for audio or video (P1, P2, and agency contacts in P0). The deck leads with video but covers audio too. | https://canva.link/more-agencies | Share the deck, then suggest the website for more, e.g. "Here's a quick look at what we do for agencies: [link], and wedomore.com for more." |
+  | **Branded entertainment** (P5) | https://canva.link/dug4nkixl84qffj | Share the deck, then suggest the website for more, e.g. "and wedomore.com for the rest of what we do". |
   | **Everyone else** | wedomore.com | A light suggestion to visit the website, never a hard sell |
 
   Never link deep pages (/for-agencies, /studios…) until Charles says the new site is live. **Never use the new website's launch as a reason to get in touch.**

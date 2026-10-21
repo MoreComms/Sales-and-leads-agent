@@ -19,7 +19,7 @@
 | D20 | **Ramadan boost** | None. P5 keeps its normal share. |
 | D21 | **Sponsorship** | No sponsorship pitching. P5 pitches branded entertainment and Ramadan content the brand owns. |
 | D23 | **Website** | Not live yet; Charles is finalising it. **Never use the launch as a reason to reconnect.** No deep page links until he says it's live. |
-| D24 | **Links in drafts** | Agencies, for anything production-related: https://canva.link/more-agencies. Branded entertainment: https://canva.link/dug4nkixl84qffj, plus a light suggestion to visit wedomore.com. Everyone else: a light suggestion to visit wedomore.com. |
+| D24 | **Links in drafts** | Agencies (audio or video): https://canva.link/more-agencies, plus a light suggestion to visit wedomore.com for more. Branded entertainment: https://canva.link/dug4nkixl84qffj, plus a light suggestion to visit wedomore.com. Everyone else: a light suggestion to visit wedomore.com. |
 | D22 | **Incoming requests** | The agent watches knowmore@ (which lands in Charles's inbox) and the website form, and drafts replies with studio-room availability |
 
 ## Setup status
