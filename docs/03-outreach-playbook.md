@@ -57,7 +57,7 @@ Tier A only, or after a first positive reply. Small, human-made or curated, alwa
 |---|---|
 | P1 Agency audio | A 60-second shortlist of 3–5 roster voices in the right dialect for their client's category (curated from a tagged voice library) |
 | P4 Brand sound | Three bullet points on how their recent ads sound, plus one idea; a 5–10 second sonic sketch for top accounts |
-| P5 Branded entertainment | One-page show-fit note: audience overlap with The Rahal Show or the slate, and two integration ideas |
+| P5 Branded entertainment | A one-page format idea for a show the brand would own: title, host idea, episode shape, where it airs |
 | P3 Studio-to-studio | An Atmos test mix offer, or a dialect ADR sample |
 | P7 Studios | A studio walkthrough video and an invite to visit (or a first-session offer, if approved) |
 
@@ -91,14 +91,14 @@ Prefer pre-recorded human reads from the roster over AI voices. They show the cr
 >
 > Charles
 
-**P5 · Ramadan sponsorship (Charles → head of partnerships at a delivery brand)**
-> Subject: A Ramadan show with [Brand] in it
+**P5 · Branded entertainment (Charles → head of brand at a delivery brand)**
+> Subject: A Ramadan show [Brand] owns
 >
 > Hi [Name],
 >
-> Ramadan budgets are being set now, so I'll keep this short. We're producing [show one-liner from the approved slate sheet], and a delivery brand fits it naturally: [integration idea 1] and [integration idea 2].
+> Ramadan plans are being locked now, so I'll keep this short. Instead of another 30-second spot, what if [Brand] owned the show people watch after iftar? We sketched one: [one-line format idea, e.g. a nightly cooking duel shot in our kitchen studio, with [Brand] delivering the mystery ingredients].
 >
-> I've put a one-page note together on why it fits [Brand]'s audience: [link].
+> One page on how it would work is here: [link]. We'd make it end to end in our studios in Production City.
 >
 > Worth 15 minutes next week? Tuesday or Wednesday morning work on my side.
 >

@@ -9,7 +9,7 @@
 The commercial reality the agent has to serve (from the strategy doc):
 
 - **Legacy services fund the pivot.** Audio (voice-over and sound design) is the top revenue line and the most profitable one, but it is *not working at capacity*. Video is moving back to mid/high-end work. Studios need utilisation.
-- **The future can't stop.** Branded Entertainment, MORE Originals and Ventures need brand partners and sponsors now. Ramadan 2027 budgets lock in Q4 2026.
+- **The future can't stop.** Branded Entertainment needs brand partners now, and Ramadan 2027 budgets lock in Q4 2026. MORE Originals aren't pitched for sponsorship until a show launches.
 - **New business is organised by service, not by region or type.** So every lead the agent finds belongs to one **play**, and each play has an owner.
 
 ## The six capabilities (website wording)
@@ -19,7 +19,7 @@ The commercial reality the agent has to serve (from the strategy doc):
 | 01 | **Audio & Music** (SoundStruck) | Sonic identities, scores, voices and Atmos mixes. Any language, any genre. | VO casting and direction in any dialect, ADR and dubbing, sound design and Foley, mixing, Dolby Atmos 7.1.4, original music, sonic branding, music production, podcast production, **MORE Sound** (fixed-price voice and music, "brief in, air-ready out") |
 | 02 | **Video & Animation** | Social-first to TVC to documentary. Shot, cut and animated in-house. | TVCs and brand films, social-first content, documentary and series, 2D/3D animation, post, promos and trailers, in-studio content retainers |
 | 03 | **Branded Entertainment** | Shows your brand owns, not ads it rents. | Format development, series production, host casting, distribution, brand integration, rights structuring. Brands attach to MORE IP, co-develop, or commission. |
-| 04 | **MORE Originals** | Formats, series and ventures we build and keep. | Slate of 5 in development (docuseries, unscripted, kids animation, live music sessions, travel and culture platform) and The Rahal Show partnership. Needs sponsors, platforms and co-producers. |
+| 04 | **MORE Originals** | Formats, series and ventures we build and keep. | Slate of 5 in development (docuseries, unscripted, kids animation, live music sessions, travel and culture platform). Not pitched by the agent until a show launches. |
 | 05 | **Talent & Creators** | A curated collective, matched from day one. | Talent casting, voice talent, creator partnerships, talent development, creator-led ventures |
 | 06 | **MORE Studios** | 10,000 sq ft. Eight rooms. Book one. | SoundStruck A (Atmos music), SoundStruck B (voice/ADR/Foley), Flame (kitchen), Chime/Breeze/Wave/Thunder (podcast sets), Stream (content stage) |
 
@@ -48,7 +48,7 @@ A **play** is the unit the agent runs: one offer, one buyer, the signals that sa
 | **P2** | **Agency production partner** (white-label) | Agencies × Video & Animation | Heads of production, EPs, new-business directors | Account wins; pitch season; agency hiring producers or editors (stretched); big seasonal briefs | "When the pitch is Thursday": animatics, sonic concepts and mood films | Brief us / studio visit | Daniel (Dalia on delivery) | Medium–high |
 | **P3** | **Studio-to-studio** | Studios × Audio + Video | Regional and international production houses, post houses, dubbing and localisation companies, labels | Productions announced for UAE (film commissions, rebate); streamer commissions of Arabic series; album releases (spatial audio); localisation demand | Certified Atmos 7.1.4, dialect ADR bench, Dubai cost advantage ("no inflated day rates") | Book a session / test mix | Jojo / Elsa | Medium–high |
 | **P4** | **Brand sound** (sonic identity) | Brands × Audio | CMOs, heads of brand at brands that are launching, rebranding, entering the market or shipping an app | Rebrand or launch news; new app; new CMO; market entry; ads with no consistent sound | A 3-point "sonic audit" of their recent ads with one idea | Book a call | Charles | Medium (researched, always approved) |
-| **P5** | **Branded entertainment & show sponsorship** | Brands × Branded Ent. + Originals | Heads of brand, partnerships, sponsorship, content at major UAE/GCC brands and tourism boards | **Ramadan budgets lock in Q4** (sprint 15 Nov–mid Dec 2026); sponsorship announcements; category fit with The Rahal Show or slate; new partnership heads | A one-page show-fit note: audience overlap and two integration ideas ("claim poster three") | Meeting with Charles/Daniel | Charles / Daniel | **Low.** Research + first-touch drafts, human-led after |
+| **P5** | **Branded entertainment**: shows and Ramadan content the brand owns | Brands × Branded Ent. | Heads of brand, content and marketing at major UAE/GCC brands and tourism boards (starting list: [08](08-ramadan-target-brands.md)) | **Ramadan budgets lock in Q4**; new CMO or head of content; brand content-partnership announcements | A one-page format idea for a show they'd own (e.g. a food series from the Flame kitchen studio, a docuseries, a podcast) | Meeting with Charles | Charles / Daniel | **Low.** Research + first-touch drafts, human-led after |
 | **P6** | **Challenger-brand production** | Brands × Video/Audio | Founders, marketing heads at scale-ups, F&B groups, developers | Funding rounds; openings and expansion; new marketing hire; launch campaigns | A specific idea tied to their launch | Brief us | Daniel | Medium (lower priority while video rebuilds) |
 | **P7** | **MORE Studios bookings** | Studios (rooms) | PR agencies, comms coaches, podcasters, F&B marketing agencies, food photographers and stylists, F&B and e-commerce brands, creators, corporate comms | New podcasts in UAE charts; brands launching podcasts; F&B openings; creator growth | Studio tour, a first-session offer, bundle pricing (5/10/20 hrs at 10/15/20% off) | Book a room | Charles (incoming studio requests also go to Charles) | **High** |
 | **P8** | **Artist services** | Creators × Audio & Music | Artists, managers, labels (Universal MENA, Sony, Sama Music) | Release announcements, signings, tours through Dubai | "One artist. One day. One month of content." (Artist Content Days) | Book a day | Music team / Sleiman | Medium (prices to validate first) |
@@ -63,7 +63,7 @@ No play outranks another. Every week the agent builds a **balanced slate**:
 - In each play, the best-scoring leads fill its slots. **Slots are never filled with weak leads.** If a play has no qualified lead that week, its spare slots go to the strongest waiting leads in other plays.
 - **P0 Reactivation runs alongside as warm drafts** in Charles's Gmail (he sends them himself, at his pace). It doesn't use new-contact slots.
 - **P9 Tender radar and P10 Creator sourcing** don't send email; they produce alerts and suggestions.
-- **Temporary boosts are Charles's call,** for example giving P5 more slots during the Ramadan sprint (see [08](08-ramadan-target-brands.md)).
+- **Temporary boosts are Charles's call.** None for now.
 
 In practice that's about **8 new drafts a day to approve, Monday to Friday**, plus the reactivation drafts.
 
@@ -80,4 +80,4 @@ Rule today: *always check with Charles before quoting*. The agent never quotes a
 
 - MORE Studios: podcast sets from AED 300/hr dry hire; 5/10/20-hour bundles at 10/15/20% off.
 - MORE Sound Tier 1: "per spot, all in" (number to confirm).
-- Everything else (sonic branding, retainers, sponsorships): never quoted by the agent.
+- Everything else (sonic branding, retainers, branded series): never quoted by the agent.

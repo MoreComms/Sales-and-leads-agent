@@ -46,10 +46,10 @@ Ranked by how well a correctly timed contact converts, and how hard it is to det
 | 1 | **Agency account win or new AOR**: first flights need dialect VO, music and a fast mix within 30–90 days | P1, P2 | Campaign ME, Communicate, Arabian Marketer, ArabAd, LBB (RSS) + Claude classification | Free | Easy |
 | 2 | **Entertainment or tourism RFQ/tender** | P9 | Alert emails from Tahweel (Dubai Holding), Dubai eSupply, ADGPG, federal DPP, Etimad, routed to a dedicated inbox the agent reads | Free (registration needed) | Medium |
 | 3 | **Ramadan 2027 window** (Ramadan expected ~8 Feb 2027; budgets lock Oct–Jan) | P5, P1, P2 | Calendar trigger + last year's Ramadan advertisers and series sponsors | Free | Easy |
-| 4 | **Brand sponsorship or content-partnership announcement** | P5, P4 | Zawya, WAM, Dubai Media Office, Google News RSS, GDELT | Free | Easy–medium |
+| 4 | **Brand announces a sponsorship or content partnership** (they'll need activation content) | P5, P4 | Zawya, WAM, Dubai Media Office, Google News RSS, GDELT | Free | Easy–medium |
 | 5 | **New CMO, head of partnerships or head of content** (first 90 days = roster review) | P5, P4, P2 | Press appointment notices; Apollo job-change data; Sales Navigator alerts (human-checked) | Included in Apollo | Medium |
 | 6 | **International shoot announced for UAE/KSA** (Abu Dhabi rebate 35–50%, Saudi up to 60%) | P3 | Abu Dhabi Film Commission/CMA and Saudi Film Commission news, KFTV, Screen, Variety/Deadline | Free | Medium |
-| 7 | **Streamer or broadcaster commissioning** (MBC/Shahid, OSN+, Netflix MENA, Thmanyah) | P3 (dubbing, Atmos), Originals | BroadcastPro ME, Señal News, slate announcements; DICM in November | Free | Medium (low volume; human judgement) |
+| 7 | **Streamer or broadcaster commissioning** (MBC/Shahid, OSN+, Netflix MENA, Thmanyah) | P3 (dubbing, Atmos, promos) | BroadcastPro ME, Señal News, slate announcements; DICM in November | Free | Medium (low volume; human judgement) |
 | 8 | **New podcast or creator channel in UAE/KSA** | P7, P10 | Apple Podcasts search API (store ae/sa), Podcast Index, YouTube Data API | Free | Easy |
 | 9 | **Brand entering UAE/KSA, or a global campaign with no Arabic version** | P1, P4 | Press releases, KSA regional-HQ moves, regional YouTube | Free | Medium |
 | 10 | **Artist release or tour through Dubai** | P8 | Anghami/Apple charts, label news (Spotify's API is now restricted) | Free / paid Chartmetric later | Medium |
@@ -76,7 +76,7 @@ Every candidate gets three scores. Claude judges them against the play's rubric,
 
 - **Fit (0–5):** does the account match the play's buyer, size and category? Is this the right person?
 - **Timing (0–5):** how strong and how recent is the signal? Decays over 0–30 days. Inside the Ramadan window counts.
-- **Value (0–5):** likely deal size and strategic value (e.g. a sponsor for an Original scores above a one-off VO spot).
+- **Value (0–5):** likely deal size and strategic value (e.g. a branded series scores above a one-off VO spot).
 
 | Tier | Rule (initial, to tune) | What happens |
 |---|---|---|

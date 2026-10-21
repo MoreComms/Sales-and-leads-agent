@@ -1,6 +1,6 @@
 # 06 · Roadmap, metrics and costs
 
-Dates assume we agree the plan this week. Ramadan 2027 is expected around 8 February, which makes **15 November – mid December the sponsorship selling window**. The roadmap is built around hitting it.
+Dates assume we agree the plan this week. Ramadan 2027 is expected around 8 February, and brands lock Ramadan budgets in Q4. So **Ramadan is a strong "now" signal across plays from today through January**, and the roadmap gets the full slate running before mid-December.
 
 ## Phases
 
@@ -8,7 +8,7 @@ Dates assume we agree the plan this week. Ramadan 2027 is expected around 8 Febr
 - Agree the decisions in [07-decisions.md](07-decisions.md).
 - **Check wedomore.com's email authentication** (SPF, DKIM, DMARC) and set up Google Postmaster Tools. No new domains are needed.
 - Register or confirm vendor accounts on Tahweel (Dubai Holding), Dubai eSupply, ADGPG and the federal Digital Procurement Platform, and route their alert emails to one inbox.
-- Charles approves the Ramadan target list ([08](08-ramadan-target-brands.md)) and confirms who sells the Rahal Show inventory.
+- Charles grants access to knowmore@wedomore.com (for incoming requests) and confirms who receives the website form's emails.
 - Charles opts in: Gmail read access for reactivation and voice learning, and calendar access for scheduling. He is the only sender for the case study.
 - Collect assets: the current deck link, showreel, studio walkthrough, tagged voice reels, and the slate one-liners that can be shared.
 
@@ -17,14 +17,16 @@ Dates assume we agree the plan this week. Ramadan 2027 is expected around 8 Febr
 - Import and dedupe **MORE – CRM**; add play, agent status, thread link and opt-out columns; switch on two-way sync.
 - Gmail, Calendar and Sheets integrations; researcher, writer and critic; sender voice guides drafted and approved.
 - **P0 Reactivation live at L1:** drafts land in each sender's Gmail, starting with the ledger's past clients.
-- **P5 Ramadan sprint, concierge mode, from ~10 Nov:** research dossiers, show-fit notes and first-touch drafts for the approved brands in [08](08-ramadan-target-brands.md), ready for Charles by **15 Nov**. This is a deadline, not a priority: the Ramadan window closes mid-December.
+- **First P5 drafts from mid-November:** research and one-page format ideas for the highest-scoring brands in [08](08-ramadan-target-brands.md), at P5's normal share of the slate, so Ramadan pitches land while budgets are still open.
+- Incoming requests (knowmore@wedomore.com and the website form) triaged to Charles with draft replies.
+- Email alerts to Charles: drafts ready, hot replies, meetings booked.
 - Reply triage v1: classify and draft; humans send.
 
 ### Phase 2 · Signals and targeted new contacts (24 Nov – 19 Dec)
 - Signal collectors: agency news (account wins and moves), the tender alert inbox, podcast launches, film-commission news.
 - Contact-data vendor pilot on 300 known contacts, then the email waterfall and verification go live.
 - Approved sequences sent from Charles's wedomore.com mailbox, with caps, pacing, follow-ups and stop rules.
-- Scheduling from Charles's calendar, studio-visit invites, prep briefs; incoming studio and brief requests triaged to Charles.
+- Scheduling from Charles's calendar, studio-visit invites, prep briefs.
 - **The balanced weekly slate goes live:** P1–P8 share the 40 new contacts a week evenly (about 5 each). P9 Tender radar live (L0).
 - Weekly report v1, per play.
 

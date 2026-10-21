@@ -24,12 +24,12 @@ An automated pipeline that finds the right people for MORE's services, researche
 | [05 · Guardrails and compliance](docs/05-guardrails-and-compliance.md) | Hard rules, autonomy levels, deliverability from wedomore.com, compliance, AI safeguards |
 | [06 · Roadmap, metrics and costs](docs/06-roadmap-metrics-costs.md) | Phases to Ramadan 2027 and beyond, targets, monthly running costs, risks |
 | [07 · Decisions](docs/07-decisions.md) | What's agreed, and **what's still needed before building** |
-| [08 · Ramadan 2027 target brands](docs/08-ramadan-target-brands.md) | 43 suggested brands for the sponsorship sprint, for Charles to approve |
+| [08 · Ramadan 2027 target brands](docs/08-ramadan-target-brands.md) | 43 approved brands for Ramadan branded entertainment and content (no sponsorship pitching) |
 
 ## Timeline at a glance
 
-- **This week:** approve the Ramadan list and the open decisions, check wedomore.com's email authentication, tender portal registrations.
-- **3–21 Nov:** foundation, reactivation live (drafts in Charles's Gmail), Ramadan sponsorship drafts ready by 15 Nov.
+- **This week:** the last three decisions (autonomy, budget, stack), access and accounts, wedomore.com's email authentication, tender portal alerts.
+- **3–21 Nov:** foundation, reactivation live (drafts in Charles's Gmail), incoming-request triage, email alerts, first Ramadan branded-content drafts.
 - **24 Nov – 19 Dec:** signals and the balanced weekly slate across all email plays, scheduling, incoming-request triage, tender radar.
 - **January:** Ramadan production season, learning loop, Arabic drafts, creator sourcing.
 - **After Eid:** review the case study; decide whether to add more senders.

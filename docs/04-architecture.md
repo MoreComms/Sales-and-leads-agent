@@ -58,7 +58,7 @@ flowchart LR
 | **Worker** | Runs every pipeline step as durable workflows. Multi-day sequences "sleep" for free between touches. Approval steps wait on a token the dashboard completes. Retries, rate limits and cron live here. |
 | **Database** | The system of record: accounts, contacts, signals, dossiers, sequences, messages, replies, meetings, suppression, audit log |
 | **Dashboard ("MORE Outbox")** | Mobile-first web app. Review queue with research beside each draft; inline edit; approve one or a batch. Also: pipeline, signals feed, tender radar, weekly report, and settings for plays, voices and guardrails. |
-| **Notifications** | "3 drafts to review", "positive reply from X", "meeting booked", "new RFQ" pushed to the owner, with a deep link. Channel to agree: Google Chat, Slack, email or WhatsApp to team members. |
+| **Notifications** | "3 drafts to review", "positive reply from X", "meeting booked", "new RFQ" sent to Charles **by email** (decided 21 Oct), with a deep link to the review queue. |
 | **CRM sync** | Writes leads, stages, last/next interaction, thread links and notes into the **MORE – CRM** sheet, and reads back human edits to stage, owner and notes. The team keeps working where they already work. |
 | **Gmail drafts mode** | For warm plays (P0), the agent drops ready-to-send drafts into the sender's own Gmail under a "MORE Agent" label. They review and hit send on their phone, with no new tool to learn. |
 
