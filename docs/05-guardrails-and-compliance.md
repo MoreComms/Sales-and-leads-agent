@@ -1,6 +1,6 @@
 # 05 · Guardrails, deliverability and compliance
 
-> Not legal advice. The compliance picture below comes from public law-firm and regulator summaries as of October 2026. **We recommend a one-hour review with UAE counsel before we start emailing people we've never worked with.** Warm reactivation (P0) can start before that.
+> Not legal advice. The compliance picture below comes from public law-firm and regulator summaries as of October 2026. **Charles confirmed on 21 Oct that MORE is fine legally to proceed.** The practices below stay in place anyway: they're also what keeps outreach welcome and wedomore.com's reputation clean.
 
 ## Hard rules the system enforces (code, not prompts)
 
@@ -53,7 +53,7 @@ Every first email to a new person is approved by a human, permanently. That is t
 |---|---|---|
 | **UAE: PDPL** (Federal Decree-Law 45/2021; executive regulations reportedly still not issued) | Consent is the main lawful basis; no explicit legitimate-interest basis like GDPR; express right to object to direct marketing. DIFC and ADGM have their own laws (MORE sits under the federal law in Dubai Production City). | Warm contacts first. Cold B2B only to role-relevant work addresses, individually researched (not bulk marketing), clear sender identity, instant opt-out, a source record for every contact. **Counsel to confirm before cold plays launch.** |
 | **UAE: telemarketing** (Cabinet Resolutions 56 and 57 of 2024) | Calls 9am–6pm only; no repeat after a refusal; limits on unanswered calls; no marketing from personal numbers; fines up to AED 150k | No cold calling. Phone only after a reply, and the human dials. |
-| **KSA: PDPL** (enforced since Sep 2024; SDAIA consulting on amendments now) | Direct marketing needs consent and an easy opt-out; active enforcement; fines up to SAR 5M | **No cold email to KSA at launch.** Use warm intros, events and human-sent LinkedIn. Revisit after counsel and the final SDAIA amendments. |
+| **KSA: PDPL** (enforced since Sep 2024; SDAIA consulting on amendments now) | Direct marketing needs consent and an easy opt-out; active enforcement; fines up to SAR 5M | **No cold email to KSA at launch.** Use warm intros, events and human-sent LinkedIn. Revisit once SDAIA's amendments are final. |
 | **EU / UK** (GDPR, PECR) | Legitimate interest works for B2B email in the UK, France, Netherlands and Ireland, with an absolute right to object. **Germany requires prior consent even for B2B.** | P3 only, to role addresses with a clear opt-out. **No cold email to Germany.** |
 | **WhatsApp** (Meta policy) | Business-initiated messages need prior opt-in naming the business; templates outside 24 hours | Never cold. Only after a reply or an explicit "send it on WhatsApp". |
 | **LinkedIn** (User Agreement) | Bots and automation prohibited; active enforcement against automation vendors in 2025–26 | Human-sent only. The agent drafts connection notes and messages. |
@@ -61,7 +61,7 @@ Every first email to a new person is approved by a human, permanently. That is t
 
 ## Data retention
 
-- Contacts who never replied are deleted after 12 months (counsel to confirm the period).
+- Contacts who never replied are deleted after 12 months.
 - The suppression list is hashed and kept permanently, so we never re-contact someone who opted out.
 - Every contact carries a note of where we got their details and why they're relevant.
 - Vendors that process personal data (sending platform, enrichment, database) sign data processing terms.

@@ -78,42 +78,44 @@ Prefer pre-recorded human reads from the roster over AI voices. They show the cr
 >
 > Charles
 
-**P1 · Agency audio (Jojo → producer at an agency that just won an account)**
+**P1 · Agency audio (Charles → producer at an agency that just won an account)**
 > Subject: [Brand] KSA voices
 >
 > Hi Omar,
 >
 > Saw VML picked up [Brand]'s KSA business last week. Congrats.
 >
-> First flights usually need Saudi voices fast, so I pulled five Najdi and Hijazi reads from our roster that suit [Brand]'s tone: [60-second link]. Casting, direction and mix happen in our Production City booths, or remotely over Source Connect.
+> First flights usually need Saudi voices fast, so we pulled five Najdi and Hijazi reads from our roster that suit [Brand]'s tone: [60-second link]. Casting, direction and mix happen in our SoundStruck booths in Production City, or remotely over Source Connect.
 >
 > If a script lands this month, send it over and you'll have a quote back within the hour.
 >
-> Jojo · SoundStruck at MORE
+> Charles
 
-**P5 · Ramadan sponsorship (Daniel → head of partnerships at a delivery brand)**
+**P5 · Ramadan sponsorship (Charles → head of partnerships at a delivery brand)**
 > Subject: A Ramadan show with [Brand] in it
 >
-> Hi Aparna,
+> Hi [Name],
 >
 > Ramadan budgets are being set now, so I'll keep this short. We're producing [show one-liner from the approved slate sheet], and a delivery brand fits it naturally: [integration idea 1] and [integration idea 2].
 >
 > I've put a one-page note together on why it fits [Brand]'s audience: [link].
 >
-> Worth 15 minutes next week? Tuesday or Wednesday morning work on our side.
+> Worth 15 minutes next week? Tuesday or Wednesday morning work on my side.
 >
-> Daniel · Head of Growth, MORE
+> Charles
 
-**P7 · Studios (studio manager → PR agency)**
+**P7 · Studios (Charles → PR agency)**
 > Subject: Founder interviews, filmed properly
 >
 > Hi Sara,
 >
 > Your team turns out a lot of founder and expert interviews for clients like [client]. We have four podcast sets in Dubai Production City (white, dark, desk and a four-seat lounge) with crew and edit on tap, bookable by the hour.
 >
-> Happy to show you round. Thursday afternoon work for a 20-minute walkthrough?
+> Happy to show you round. Does Thursday afternoon work for a 20-minute walkthrough?
 >
-> [Name] · MORE Studios
+> Charles
+
+Every draft carries Charles's real signature, from his Gmail. Where a more relevant receipt exists outside the website, the review queue shows 2–3 options for him to pick from (see 01).
 
 ## Replies: what the agent does with each kind
 
@@ -130,6 +132,8 @@ Every inbound reply is classified within minutes. **Nothing auto-replies until a
 | **Out of office** | Pauses the sequence, resumes the day after their return date; picks up any alternate contact named |
 | **Bounce** | Marks the address invalid, tries the next waterfall result, alerts if the domain is risky |
 | **Anything sensitive** (complaint, legal, pricing negotiation, an existing client issue) | Escalated to the owner straight away. The agent does not draft. |
+
+**Incoming requests** (a studio booking, a brief, a quote request through the website form or knowmore@wedomore.com) go to Charles too. The agent attaches a quick profile of the sender and which room or service they're asking about, and drafts a reply for him to send.
 
 ## Meetings: from "yes" to a prepared call
 

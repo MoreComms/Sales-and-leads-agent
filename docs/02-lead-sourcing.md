@@ -32,7 +32,7 @@ Our market research picked up reports of a regional conflict affecting the Gulf 
 |---|---|---|---|
 | **MORE – CRM** sheet | Local Production & Brands (~71), International Clients (~110), UAE Brands (~118), UAE Talents (75) | ~370 rows | Duplicates across tabs, missing emails, no opt-out field. The agent imports, dedupes and normalises it once. |
 | **2024–26 sales ledger** | Every paying client: Craft, Translate Plus, NOVAE, McCann, Memac Ogilvy, Berklee, Emaar, Deliveroo, SRMG, Pure Health, Wego, Etihad and more | ~100+ accounts [est.] | Best reactivation list: they've paid us before |
-| **Gmail history** of Charles, Daniel, Jojo and Elsa (read-only, opt-in per person) | People we've emailed with in the last ~5 years who've gone quiet for 6+ months; also the sender's real writing voice | Hundreds [est.] | Needs each person's consent; see decisions |
+| **Charles's Gmail history** (read-only, with his opt-in) | People he's emailed with in the last ~5 years who've gone quiet for 6+ months; also his real writing voice | Hundreds [est.] | Case study: Charles only. Daniel, Jojo and Elsa only if we expand. |
 | **Drive prospect lists** | *Kitchen Studio Clients to approach*, *Podcast Studio Clients To approach* | Dozens | Ready-made P7 targets |
 | **Meeting notes** (Gemini notes in Drive) | People met and pitched to, follow-ups promised and not done | — | Turns into reactivation tasks |
 | **Event and award credits** | Dubai Lynx 2026 winners and credits (8 Oct), Effie MENA shortlists | — | A fresh map of active agency producers |
@@ -85,10 +85,12 @@ Every candidate gets three scores. Claude judges them against the play's rubric,
 | **C** | Fit but no timing | Watchlist only, never emailed; re-scored when a new signal appears |
 | **Out** | Poor fit, on the suppression list, already in an open conversation with someone at MORE, or a protected contact (Sheikhs, Excellencies, investors) | Never contacted by the agent |
 
-**Collision rule:** if anyone at MORE has emailed the contact in the last 90 days, or the CRM shows an owner and an active stage, the agent does not start a sequence. It surfaces the signal to that owner instead ("Omar's agency just won X, worth a note?").
+**Collision rule:** if anyone at MORE has emailed the contact in the last 90 days, or the CRM shows an owner and an active stage, the agent does not start a sequence. It surfaces the signal to Charles instead ("Omar's agency just won X, worth a note?"). This matters during the case study, because many CRM rows belong to Daniel, Jojo or Elsa. Charles won't cold-email someone a colleague is already talking to.
 
-## Volumes we're planning for (to confirm)
+**Personal addresses:** some CRM contacts are on personal Gmail, Hotmail or Yahoo addresses. The agent never emails a personal address; it finds a verified work address or uses LinkedIn.
 
-- **Reactivation (P0):** 150–300 people in the first month, then a steady trickle as relationships go quiet.
-- **New contacts across signal plays:** **~100–200 a month across the whole team**, hand-picked. That ceiling is deliberate: every email goes from wedomore.com, so we only contact Tier A, and Tier B with a fresh, strong signal. Volume grows only if reply quality and domain health stay strong.
+## Volumes (case study: Charles as the only sender)
+
+- **Reactivation (P0):** 150–300 people in the first month as drafts in Charles's Gmail, then a steady trickle as relationships go quiet.
+- **New contacts:** **40 a week (~160 a month)**, balanced across P1–P8 (see 01), hand-picked. That ceiling is deliberate: every email goes from wedomore.com, so we only contact Tier A, and Tier B with a fresh, strong signal. Volume grows only if reply quality and domain health stay strong, or when more senders join.
 - **Tender radar:** every relevant RFQ, no outreach.

@@ -96,7 +96,7 @@ Plays, voices, the proof library and guardrails live in version-controlled confi
 
 | Integration | Use | Access needed |
 |---|---|---|
-| Gmail API | Read history (opt-in, read-only) for reactivation and voice; create drafts; send every approved email; watch for replies and bounces | Per-user OAuth consent from each sender (recommended over domain-wide delegation: least privilege) |
+| Gmail API | Read history (opt-in, read-only) for reactivation and voice; create drafts; send every approved email; watch for replies and bounces | Per-user OAuth consent (case study: Charles only), recommended over domain-wide delegation for least privilege. Access to knowmore@wedomore.com too, if incoming requests should be triaged from there. |
 | Google Calendar API | Free/busy, create events with Meet links | Per-user OAuth |
 | Google Sheets API | Two-way sync with MORE – CRM | Service account with edit access to that one sheet |
 | Google Drive | Read prospect lists, rate cards, proof assets | Read-only, specific folders |

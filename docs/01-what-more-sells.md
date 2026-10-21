@@ -39,38 +39,44 @@ The website already segments buyers. The agent uses the same doors so outreach, 
 
 A **play** is the unit the agent runs: one offer, one buyer, the signals that say "now", one value-first hook, one proof set and one owner. Plays are config, not code, so we can add, pause and tune them without a rebuild.
 
-| ID | Play | Door × capability | Buyer | "Now" signals | Value-first hook | CTA | Owner | Automation fit |
+**Case study: Charles sends and owns every play for now** (decided 21 Oct). The last-but-one column shows who could take a play over if we expand to Daniel, Jojo or Elsa later.
+
+| ID | Play | Door × capability | Buyer | "Now" signals | Value-first hook | CTA | Owner if we expand (Charles for now) | Automation fit |
 |---|---|---|---|---|---|---|---|---|
-| **P0** | **Network reactivation**: "we rebuilt MORE" | All | Past clients and dormant contacts (2024–26 ledger, CRM rows untouched since spring, Gmail threads) | Website relaunch; last project anniversary; their new role or company | A personal note from whoever knew them, with what's new for *them* | Coffee at the studio or a 15-min catch-up | Relationship owner | **High.** Drafts only; humans send. |
+| **P0** | **Network reactivation**: "we rebuilt MORE" | All | Past clients and dormant contacts (2024–26 ledger, CRM rows untouched since spring, Gmail threads) | Website relaunch; last project anniversary; their new role or company | A personal note from whoever knew them, with what's new for *them* | Coffee at the studio or a 15-min catch-up | Charles (his own network first) | **High.** Drafts only; Charles sends. |
 | **P1** | **Agency audio partner** | Agencies × Audio | Producers, heads of production, radio/TV producers at network and independent agencies, production houses, localisation agencies (UAE, KSA, Kuwait, Qatar) | Account wins and moves (Campaign ME); Ramadan production window; new producer hires; campaign launches in a category we've voiced | A dialect voice shortlist built for their client's category, plus MORE Sound fixed pricing | "Send your next script; quote back within the hour" | Jojo, with Daniel | **High** |
 | **P2** | **Agency production partner** (white-label) | Agencies × Video & Animation | Heads of production, EPs, new-business directors | Account wins; pitch season; agency hiring producers or editors (stretched); big seasonal briefs | "When the pitch is Thursday": animatics, sonic concepts and mood films | Brief us / studio visit | Daniel (Dalia on delivery) | Medium–high |
 | **P3** | **Studio-to-studio** | Studios × Audio + Video | Regional and international production houses, post houses, dubbing and localisation companies, labels | Productions announced for UAE (film commissions, rebate); streamer commissions of Arabic series; album releases (spatial audio); localisation demand | Certified Atmos 7.1.4, dialect ADR bench, Dubai cost advantage ("no inflated day rates") | Book a session / test mix | Jojo / Elsa | Medium–high |
 | **P4** | **Brand sound** (sonic identity) | Brands × Audio | CMOs, heads of brand at brands that are launching, rebranding, entering the market or shipping an app | Rebrand or launch news; new app; new CMO; market entry; ads with no consistent sound | A 3-point "sonic audit" of their recent ads with one idea | Book a call | Charles | Medium (researched, always approved) |
 | **P5** | **Branded entertainment & show sponsorship** | Brands × Branded Ent. + Originals | Heads of brand, partnerships, sponsorship, content at major UAE/GCC brands and tourism boards | **Ramadan budgets lock in Q4** (sprint 15 Nov–mid Dec 2026); sponsorship announcements; category fit with The Rahal Show or slate; new partnership heads | A one-page show-fit note: audience overlap and two integration ideas ("claim poster three") | Meeting with Charles/Daniel | Charles / Daniel | **Low.** Research + first-touch drafts, human-led after |
 | **P6** | **Challenger-brand production** | Brands × Video/Audio | Founders, marketing heads at scale-ups, F&B groups, developers | Funding rounds; openings and expansion; new marketing hire; launch campaigns | A specific idea tied to their launch | Brief us | Daniel | Medium (lower priority while video rebuilds) |
-| **P7** | **MORE Studios bookings** | Studios (rooms) | PR agencies, comms coaches, podcasters, F&B marketing agencies, food photographers and stylists, F&B and e-commerce brands, creators, corporate comms | New podcasts in UAE charts; brands launching podcasts; F&B openings; creator growth | Studio tour, a first-session offer, bundle pricing (5/10/20 hrs at 10/15/20% off) | Book a room | Studio manager (to confirm) | **High** |
+| **P7** | **MORE Studios bookings** | Studios (rooms) | PR agencies, comms coaches, podcasters, F&B marketing agencies, food photographers and stylists, F&B and e-commerce brands, creators, corporate comms | New podcasts in UAE charts; brands launching podcasts; F&B openings; creator growth | Studio tour, a first-session offer, bundle pricing (5/10/20 hrs at 10/15/20% off) | Book a room | Charles (incoming studio requests also go to Charles) | **High** |
 | **P8** | **Artist services** | Creators × Audio & Music | Artists, managers, labels (Universal MENA, Sony, Sama Music) | Release announcements, signings, tours through Dubai | "One artist. One day. One month of content." (Artist Content Days) | Book a day | Music team / Sleiman | Medium (prices to validate first) |
 | **P9** | **Tender & RFQ radar** | Brands/Gov × Video + Originals | Dubai Holding (Tahweel), Modon, Emaar, DET, DCT, Dubai eSupply, ADGPG, Etimad | New RFQs and tenders in content, production, podcasts, events, audio | A bid/no-bid brief like the Global Village risk register | Charles decides | Charles | **High** (monitoring only, no outreach) |
 | **P10** | **Creator & talent sourcing** | Creators × Talent | Rising creators by vertical (food, podcast, comedy, music) | Follower growth, viral moments, first brand deals | A studio-access or format idea | Intro call | Talent lead | Low (Instagram DMs are sent by a human) |
 
-### Proposed launch order
+### How the plays run: balanced, not ranked (decided 21 Oct)
 
-1. **P0 Network reactivation.** Cheapest, warmest, fastest meetings, and the new site is the perfect reason.
-2. **P1 Agency audio partner.** Fastest cash, and it fills the studio's spare capacity.
-3. **P5 Ramadan sponsorship sprint.** Time-boxed; it must start by mid-November, so it runs as a concierge version (research and drafts) before the full system is live.
-4. **P7 Studio bookings** and **P9 Tender radar.** High automation fit and low risk.
-5. **P3, P2, P4**, then **P8, P6, P10** once the first plays are tuned.
+No play outranks another. Every week the agent builds a **balanced slate**:
 
-## Proof the agent may cite
+- **40 new contacts a week** (the per-sender cap) are split evenly across the active email plays (P1–P8): about 5 each.
+- In each play, the best-scoring leads fill its slots. **Slots are never filled with weak leads.** If a play has no qualified lead that week, its spare slots go to the strongest waiting leads in other plays.
+- **P0 Reactivation runs alongside as warm drafts** in Charles's Gmail (he sends them himself, at his pace). It doesn't use new-contact slots.
+- **P9 Tender radar and P10 Creator sourcing** don't send email; they produce alerts and suggestions.
+- **Temporary boosts are Charles's call,** for example giving P5 more slots during the Ramadan sprint (see [08](08-ramadan-target-brands.md)).
 
-Only from an approved list, so nothing under NDA leaks. **To be confirmed by Charles before launch.**
+In practice that's about **8 new drafts a day to approve, Monday to Friday**, plus the reactivation drafts.
 
-- **Public on the website ("Trusted by" and *The receipts*):** Netflix (Narcos promo), Dubai Tourism (Weather Report Takeover), TikTok (FoodTok), Deliveroo (FOMO Man, Ramadan), Washmen, Novo Cinemas, Nescafé, Cadbury, Pizza Hut, STARZPLAY, Pattex, Dole, India Gate, FIX, One Million Arab Coders. Music: Yalla Nel3ab, Ramadan Made by You and others.
-- **Ledger work that needs clearance before naming:** Samsung via Craft, Coca-Cola Ramadan via McCann, BYD/Toyota/IKEA via Memac Ogilvy, Panadol/Centrum/Marriott adaptations via Translate Plus, Etihad contact-centre VO, Natural History Museum Abu Dhabi, Emaar, Berklee Abu Dhabi PEARL, Dubai Holding shows, Amazon Now sonic identity via VML.
+The build still happens in steps (see 06), but that's about what each play needs technically, not commercial priority. Every email play is running by the end of Phase 2.
+
+## Proof the agent may cite (decided 21 Oct)
+
+- **Free to name:** any client or project on the website ("Trusted by" and *The receipts*): Netflix (Narcos promo), Dubai Tourism (Weather Report Takeover), TikTok (FoodTok), Deliveroo (FOMO Man, Ramadan), Washmen, Novo Cinemas, Nescafé, Cadbury, Pizza Hut, STARZPLAY, Pattex, Dole, India Gate, FIX, One Million Arab Coders. Music: Yalla Nel3ab, Ramadan Made by You, Bala Ma Nhes, Alf Rooh and the rest of the work list.
+- **Everything else is offered as options, never used by default.** When a more relevant example exists outside the website (e.g. Samsung via Craft for an agency producer, Amazon Now's sonic identity for a quick-commerce brand), the draft shows Charles **2–3 personalisation options** to pick from in the review queue. Nothing off the website goes out without his tap.
 
 ## Price anchors the agent may mention (or must not)
 
-Rule today: *always check with Charles before quoting*. The agent therefore never quotes a number unless the play's config allows it. Candidates for "allowed to mention":
+Rule today: *always check with Charles before quoting*. The agent never quotes a number in outreach. If a prospect asks about price, the reply is routed to Charles. Candidates if Charles later wants to allow some:
 
 - MORE Studios: podcast sets from AED 300/hr dry hire; 5/10/20-hour bundles at 10/15/20% off.
 - MORE Sound Tier 1: "per spot, all in" (number to confirm).
