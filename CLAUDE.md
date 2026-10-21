@@ -45,8 +45,9 @@ Incoming emails to **knowmore@wedomore.com** are delivered to Charles's inbox, s
 ## Writing
 
 - Charles's voice: `config/voice-charles.md`. Message rules and play templates: `config/plays.md`.
-- Plain text, under 100 words for a first email, one easy ask. Sign off "Best," and let the Gmail signature do the rest.
+- Plain-looking text (no formatting), under 100 words for a first email, one easy ask. Sign off "Best," and let the Gmail signature do the rest.
 - Create drafts with `includeSignature: true` so his real signature is added. Don't type a signature yourself.
+- Links must stay short and direct. The Gmail connector turns any hyperlink into a long google.com redirect, so follow `config/proof.md` → *How links go into a draft* exactly, and read every draft back to check.
 
 ## Memory and logging
 

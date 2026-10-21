@@ -36,7 +36,7 @@ For each new message from someone else in a thread recorded in Leads (Thread ID)
 | **Bounce** (mailer-daemon, "address not found") | Mark the lead `lost` with note `bounced`. Add the address to Suppression (reason: bounce). If 2 or more bounces happen in a day, set `paused = yes` and alert Charles. |
 | **Anything sensitive** (complaint, legal, invoice, existing project) | Don't draft. Alert Charles with a two-line summary. |
 
-- Every drafted reply is created in the same thread with `replyToMessageId` and labelled `MORE Agent/To review`.
+- Every drafted reply is created in the same thread with `replyToMessageId` and labelled `MORE Agent/To review`. Any link in it follows `config/proof.md` → *How links go into a draft* (htmlBody only, read the draft back, no `google.com/url`).
 - Update Leads and Log for every action.
 
 ## 3. Incoming requests (knowmore@ and the website form)
