@@ -87,7 +87,7 @@ Skip and record the reason in Leads (Status `skipped`) if any of these is true:
 - **Body:** plain text, short. Sections:
   - **Ready to review:** numbered list. For each: name, company, play, the one-line reason now, and the Gmail draft link.
   - **Options:** for any draft with alternatives, e.g. `3A (current): FoodTok · 3B: Samsung spot via Craft`. End with "Reply with picks like 3B, or 'skip 4'."
-  - **LinkedIn it:** people worth contacting with no email found (name, company, LinkedIn link, one-line reason).
+  - **LinkedIn it:** people worth contacting with no email found: name, company, LinkedIn link, one-line reason, and a ready-to-paste LinkedIn message for each. Write it in Charles's voice, under 300 characters so it fits a LinkedIn connection note, same sourcing and proof rules as an email, no link unless the play's link fits, and no "Best," sign-off. Save the message in the lead's Notes too.
   - **Still waiting:** drafts older than 3 working days, unsent.
   - **Worth knowing:** up to 3 notable signals, including colleague collisions to pass on.
 - Log the summary.
