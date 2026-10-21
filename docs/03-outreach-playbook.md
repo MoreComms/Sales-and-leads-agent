@@ -21,8 +21,8 @@ Generic AI personalisation is burned. Decision-makers get 120+ unsolicited email
 
 | Channel | Used for | Rule |
 |---|---|---|
-| **Email** | Primary first touch and follow-ups | Warm: from the person's real wedomore.com mailbox. Cold: from secondary domains only (see 05). |
-| **LinkedIn** | Profile view, connection request, follow-up message | **The agent drafts; a human clicks send.** No automation on anyone's main profile. A cloud tool (Unipile) is a phase-3 option for secondary seats only. |
+| **Email** | Primary first touch and follow-ups | **Always from the sender's own wedomore.com mailbox**, warm or new, with strict daily caps (see 05) |
+| **LinkedIn** | Profile view, connection request, follow-up message | **The agent drafts; a human clicks send.** No automation tools on anyone's profile. |
 | **WhatsApp** | Warm contacts and anyone who replied or shared a number | **Never cold.** The agent prepares a one-tap draft (wa.me link with the text pre-filled) for the person to send from their own phone. The WhatsApp Business API is only used after opt-in. |
 | **Phone** | After a reply, for warm contacts | UAE telemarketing rules apply (9am–6pm, no repeat after a refusal). The agent only schedules reminders; it never dials. |
 | **Instagram DM** | Creators (P10) | Human-sent drafts only. |
@@ -43,12 +43,11 @@ Default cadence for a new contact (tuned per play):
 |---|---|
 | 0 | Email 1: observation → relevance → soft ask |
 | 1–2 | LinkedIn profile view and connection request (human-sent; short note or none) |
-| 4 | Email 2: the value-first asset (reel, sketch, one-pager), or a sharper angle |
-| 8–10 | LinkedIn message, if they accepted |
-| 14 | Email 3: a receipt (relevant case) + a direct meeting ask with two time options |
-| 21–28 | Email 4: a short, gracious close-the-loop. Then nurture: re-enter only on a new signal or after 90 days. |
+| 5–7 | Email 2: the value-first asset (reel, sketch, one-pager), or a sharper angle |
+| 10–12 | LinkedIn message, if they accepted |
+| 18–21 | Email 3: a relevant receipt, a direct meeting ask with two time options, and a gracious close-the-loop. Then watchlist: re-enter only on a new signal or after 90 days. |
 
-Follow-ups produce more than half of all replies, but sequences of four or more emails raise unsubscribe and complaint rates. So we cap at **4 emails**, keep each shorter than the last, and stop the moment anything comes back.
+Follow-ups produce more than half of all replies, but longer sequences raise unsubscribe and complaint rates. Since every email carries wedomore.com's reputation, we cap at **3 emails**, keep each shorter than the last, and stop the moment anything comes back. The owner approves the whole sequence once, up front; follow-ups then go out on schedule unless the contact replies.
 
 ### Value-first assets (the hook that's uniquely MORE)
 

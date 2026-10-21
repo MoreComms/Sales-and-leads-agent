@@ -65,7 +65,7 @@ For every account that clears scoring, the agent finds the buyer titles the play
 
 1. **Search:** Apollo People Search (free with a master API key; returns names, titles and LinkedIn URLs, no emails).
 2. **Email waterfall:** Apollo enrichment, then Prospeo, then Findymail (pay only for verified finds).
-3. **Verification:** MillionVerifier on every address. Catch-all domains are only used for Tier A accounts, and only after a small pilot.
+3. **Verification:** MillionVerifier on every address. Addresses on catch-all domains (which can't be verified) are skipped unless the account is Tier A and the owner approves. Every bounce counts against wedomore.com.
 4. **Gaps:** if no verified email is found, the contact goes to a LinkedIn task for a human.
 
 Expect a lower find rate than in the US: **about 50–65% verified [est.]**. Expat turnover makes data go stale fast. **Before committing to vendors, we run 300 known UAE/KSA contacts (from the CRM and ledger) through 3–4 providers** and pick on measured fill and bounce rates.
@@ -81,8 +81,8 @@ Every candidate gets three scores. Claude judges them against the play's rubric,
 | Tier | Rule (initial, to tune) | What happens |
 |---|---|---|
 | **A** | High on all three | Deep research, partner-level draft, often a value-first asset; owner reviews every word |
-| **B** | Good fit, a real signal | Standard research, play template, human approval |
-| **C** | Fit but no timing | Nurture list; re-scored when a new signal appears |
+| **B** | Good fit and a strong signal from the last 14 days | Standard research, play template, human approval. Without a fresh signal, a Tier B lead waits on the watchlist instead. |
+| **C** | Fit but no timing | Watchlist only, never emailed; re-scored when a new signal appears |
 | **Out** | Poor fit, on the suppression list, already in an open conversation with someone at MORE, or a protected contact (Sheikhs, Excellencies, investors) | Never contacted by the agent |
 
 **Collision rule:** if anyone at MORE has emailed the contact in the last 90 days, or the CRM shows an owner and an active stage, the agent does not start a sequence. It surfaces the signal to that owner instead ("Omar's agency just won X, worth a note?").
@@ -90,5 +90,5 @@ Every candidate gets three scores. Claude judges them against the play's rubric,
 ## Volumes we're planning for (to confirm)
 
 - **Reactivation (P0):** 150–300 people in the first month, then a steady trickle as relationships go quiet.
-- **New contacts across signal plays:** ~300 a month to start, up to ~1,000 once plays are tuned. Quality over volume.
+- **New contacts across signal plays:** **~100–200 a month across the whole team**, hand-picked. That ceiling is deliberate: every email goes from wedomore.com, so we only contact Tier A, and Tier B with a fresh, strong signal. Volume grows only if reply quality and domain health stay strong.
 - **Tender radar:** every relevant RFQ, no outreach.

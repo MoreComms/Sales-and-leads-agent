@@ -25,7 +25,7 @@ flowchart LR
   C --> W[6 · Write sequence<br/>in sender's voice]
   W --> K[7 · Check<br/>rules + claim tracing]
   K --> H{8 · Human review<br/>approve · edit · skip}
-  H -->|approved| X[9 · Send<br/>Gmail warm · Instantly cold]
+  H -->|approved| X[9 · Send from the sender's<br/>own wedomore.com mailbox]
   X --> F[10 · Follow-ups<br/>stop on any reply]
   X --> T[11 · Reply triage]
   T --> P[12 · Draft reply<br/>or propose times]
@@ -46,7 +46,7 @@ flowchart LR
 | 6 Write | Email 1–4, LinkedIn note, WhatsApp text, in the sender's voice, using the play's template and the dossier | Writer |
 | 7 Check | Hard rules (length, banned phrases, prices, NDA names, links, suppression) then a critic that traces every claim to the dossier. Fail → one rewrite → else flagged for a human. | Critic |
 | 8 Review | Owner approves, edits or skips (with a reason) from their phone | — |
-| 9–10 Send & follow up | Warm sends from real mailboxes; cold sends via the sending platform on warmed secondary domains. Caps, quiet hours and holidays enforced. | — |
+| 9–10 Send & follow up | Every email goes through the Gmail API from the sender's own wedomore.com mailbox and appears in their Sent folder like any email they write. The worker enforces per-sender daily caps, pacing, quiet hours and holidays. It also reads delivery-failure notices to catch bounces. | — |
 | 11–12 Replies | Classified within minutes. Drafts prepared; times proposed from the owner's calendar. | Reply triage + responder |
 | 13 Meetings | Invite (studio visit or Meet), confirmation, reminder, prep brief 2 hours before | Briefer |
 | 14 Learn | Every edit and skip reason is stored. Weekly, Claude summarises patterns and *proposes* changes to templates and voice guides. A human approves them; nothing self-modifies silently. | Reporter |
@@ -96,11 +96,10 @@ Plays, voices, the proof library and guardrails live in version-controlled confi
 
 | Integration | Use | Access needed |
 |---|---|---|
-| Gmail API | Read history (opt-in, read-only) for reactivation and voice; create drafts; send warm emails; watch for replies | Per-user OAuth consent from each sender (recommended over domain-wide delegation: least privilege) |
+| Gmail API | Read history (opt-in, read-only) for reactivation and voice; create drafts; send every approved email; watch for replies and bounces | Per-user OAuth consent from each sender (recommended over domain-wide delegation: least privilege) |
 | Google Calendar API | Free/busy, create events with Meet links | Per-user OAuth |
 | Google Sheets API | Two-way sync with MORE – CRM | Service account with edit access to that one sheet |
 | Google Drive | Read prospect lists, rate cards, proof assets | Read-only, specific folders |
-| Instantly API v2 | Cold sending on our own warmed inboxes; reply, bounce and unsubscribe webhooks | Hypergrowth plan (API and webhooks) |
 | Apollo, Prospeo, Findymail, MillionVerifier | People search, email waterfall, verification | API keys |
 | Claude API | All model steps | Anthropic API key with per-workspace spend limits |
 | ClickUp (optional) | Create a prep or follow-up task when a meeting is booked | API token |
@@ -116,11 +115,10 @@ Plays, voices, the proof library and guardrails live in version-controlled confi
 | Hosting | Google Cloud Run, in the same Google Cloud project as the Workspace integration | Railway |
 | Research | Claude web search + web fetch tools | Exa, Firecrawl |
 | Contact data | Apollo → Prospeo → Findymail, verified by MillionVerifier | FullEnrich (one-call waterfall) |
-| Cold sending | Instantly on our own Google Workspace inboxes on 2–3 secondary domains | Smartlead |
-| Warm sending | Gmail API from each person's own mailbox | — |
+| Email sending | Gmail API from each person's own wedomore.com mailbox, for every play; caps and pacing enforced by the worker | — (no extra domains or sending platform, by decision) |
 | Scheduling | Google Calendar API (free/busy + insert with Meet) | Cal.com booking link |
 | CRM | Postgres as the engine + MORE – CRM sheet as the team view | ClickUp list or HubSpot Free later |
-| LinkedIn | Human-sent task queue | Unipile on secondary seats (phase 3, optional) |
+| LinkedIn | Human-sent task queue | — |
 | WhatsApp | One-tap drafts from people's phones; Cloud API only after opt-in | — |
 
 **Why build rather than buy an "AI SDR":** the SaaS options run from about $900/month (AiSDR) to $3,750/month (11x). They are US-data-centric, weak on Gulf contacts and generic in tone, and some lock you into their domains. For a creative studio, the voice *is* the brand. Building costs less to run (see 06) and keeps the data, the tone, Arabic handling and the approval gate in MORE's hands.
@@ -136,7 +134,7 @@ Plays, voices, the proof library and guardrails live in version-controlled confi
 │   ├── core/             # domain types, DB schema, scoring, sequence state machine, guardrails
 │   ├── agents/           # Claude prompts, tools and output schemas: classifier, scorer,
 │   │                     #   researcher, writer, critic, reply triage, responder, briefer
-│   ├── integrations/     # gmail, calendar, sheets, drive, instantly, apollo, prospeo,
+│   ├── integrations/     # gmail, calendar, sheets, drive, apollo, prospeo,
 │   │                     #   findymail, verifier, clickup
 │   └── signals/          # collectors: news RSS, tender inbox, podcasts, film commissions, releases
 ├── config/
