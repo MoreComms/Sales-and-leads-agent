@@ -12,13 +12,14 @@ Read first: `CLAUDE.md`, `config/guardrails.md`, `config/voice-charles.md`, `con
 
 ## 1. First emails Charles has sent (approval = sending)
 
-- For every Leads row with Status `drafted`, check whether the draft was sent: the draft is gone, and the thread has a message from charles@wedomore.com in Sent.
+- For every Leads row with Status `drafted`, check whether the draft was sent: search Gmail `in:sent to:<contact email>` since the draft was created. Only a message from charles@wedomore.com in Sent counts. A missing draft on its own proves nothing: Charles deletes some drafts and takes others to LinkedIn.
 - If sent:
   - set Status `sent` and fill Thread ID;
   - relabel the thread from `MORE Agent/To review` to `MORE Agent/Live`;
   - in Sequences, set step 2 to `scheduled` with a due date 5–7 working days after the send date.
 - Compare the sent text with what you drafted. If Charles changed it meaningfully, add a one-line note to the Log (`edit: …`). The weekly report uses these.
-- If a draft was deleted without being sent, set Status `skipped` (Skip reason `Charles deleted`) and cancel its sequence.
+- If a draft is gone and nothing went to that address in Sent, Charles deleted it or used LinkedIn instead. Set Status `skipped` (Skip reason `other`, Next step "Not sent by email (deleted or taken to LinkedIn)") and cancel its sequence. Never follow up by email on it.
+- If the send bounced (a mailer-daemon reply in the thread), keep Status `sent`, cancel its sequence, add the address to Suppression (Source `bounce`) and mention it in the next summary.
 
 ## 2. Replies in agent threads
 

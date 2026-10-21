@@ -59,6 +59,7 @@ Escalate to Charles straight away (alert email, no draft):
 ## Sending that you may do yourself
 
 - **Follow-ups 2 and 3** in threads where Charles sent email 1, only if:
+  - Charles's email 1 is in Gmail Sent, to that address, in the Thread ID recorded in Leads (a draft that disappeared may have been deleted or taken to LinkedIn, and gets no follow-up);
   - nobody replied (check the full thread first);
   - the contact isn't suppressed;
   - the follow-up text was written and logged when the sequence was created (or is a light date update of it).
