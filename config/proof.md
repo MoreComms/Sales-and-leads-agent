@@ -16,17 +16,15 @@
   - English: UK and US.
   - Also French, Hindi, Urdu, Tagalog, Russian, Farsi and more.
 - **MORE Sound:** fixed-price voice and music production. "Brief in, air-ready out." Never state the price.
-- **Pages to link** (one per email, the one that fits the play). **Only while Settings `site_live = yes`**; the new site was still staged in Webflow on 11 Oct. Until then, link only `wedomore.com` (or nothing), and don't say "we just relaunched".
+- **Links (decided 21 Oct).** Use exactly one of these per email, chosen by who you're writing to:
 
-  | Page | Link |
-  |---|---|
-  | Home | wedomore.com |
-  | For agencies | wedomore.com/for-agencies |
-  | For studios | wedomore.com/for-studios |
-  | For brands | wedomore.com/for-brands |
-  | Branded entertainment | wedomore.com/branded-entertainment |
-  | Studios | wedomore.com/studios |
-  | Audio & Music | wedomore.com/audio-music |
+  | Who | Link | How to phrase it |
+  |---|---|---|
+  | **Agencies, for anything production-related** (P1, P2, and agency contacts in P0) | https://canva.link/more-agencies | e.g. "Here's a quick look at what we do for agencies: [link]" |
+  | **Branded entertainment** (P5) | https://canva.link/dug4nkixl84qffj | Share the deck, then suggest the website for more, e.g. "and wedomore.com for the rest of what we do". This is the only case where two links are allowed. |
+  | **Everyone else** | wedomore.com | A light suggestion to visit the website, never a hard sell |
+
+  Never link deep pages (/for-agencies, /studios…) until Charles says the new site is live. **Never use the new website's launch as a reason to get in touch.**
 
 ## Free to name (on the website)
 

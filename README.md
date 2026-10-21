@@ -6,7 +6,7 @@ An automated pipeline that finds the right people for MORE's services, researche
 
 ## The idea in six lines
 
-1. **Warm first, then signals, never generic lists.** Start with 15 years of past clients and dormant contacts (the new website is the reason to reconnect). Then go after accounts where something just happened that creates a need: an agency won an account, a brand is planning Ramadan, an RFQ dropped, a production is coming to the UAE.
+1. **Warm first, then signals, never generic lists.** Start with 15 years of past clients and dormant contacts, reconnecting on something genuinely relevant to them. Then go after accounts where something just happened that creates a need: an agency won an account, a brand is planning Ramadan, an RFQ dropped, a production is coming to the UAE.
 2. **Organised by service, balanced, not ranked.** Eleven *plays* map MORE's six capabilities to the website's five doors (brands, agencies, studios, creators, investors). Each week the new-contact slots are shared evenly across them.
 3. **Charles is the case study.** Every email goes from his own wedomore.com mailbox, in his voice, with his signature. No extra domains. He approves every first touch from his phone. Daniel, Jojo and Elsa join later if it works.
 4. **Few, hand-picked, high-potential leads.** At most 40 new people a week, plus reactivations. Only people with a strong fit and a fresh reason; everyone else is watched, not emailed.

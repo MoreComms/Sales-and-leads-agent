@@ -66,17 +66,17 @@ Prefer pre-recorded human reads from the roster over AI voices. They show the cr
 ### Example first touches (drafts to tune together)
 
 **P0 · Reactivation (Charles → past agency producer)**
-> Subject: MORE, rebuilt
+> Subject: It's been a minute
 >
-> Hi Rana,
+> Hey Rana,
 >
-> It's been a while since the Samsung mix, so a quick hello. We've spent this year rebuilding MORE: same SoundStruck rooms, a new fixed-price MORE Sound line for spots that need to be on air by Thursday, and our own shows in development.
+> It's been a minute! Hope you're well. It's been a while since we worked together on the Samsung spot, so I wanted to say hello.
 >
-> New site's up if you're curious: wedomore.com
+> A lot has changed on our side since then. We now run fixed-price voice and music for spots that need to be on air by Thursday, and we've added podcast and content studios in Production City. Here's a quick look: https://canva.link/more-agencies
 >
-> Coffee at Production City in the next couple of weeks? Would be good to catch up properly.
+> Would love to have you over at the studio for a coffee in the next couple of weeks. Let me know what works for you.
 >
-> Charles
+> Best,
 
 **P1 · Agency audio (Charles → producer at an agency that just won an account)**
 > Subject: [Brand] KSA voices

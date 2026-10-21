@@ -6,7 +6,7 @@ The data is consistent. Cold email averages a **3–4.5% reply rate** in 2025–
 
 The GCC adds a relationship-first culture, where a cold email as the first touch does worse than in North America. So the agent sources in this order:
 
-1. **Warm: people who already know MORE.** Past clients, dormant contacts, people met and pitched to. Highest reply rate, lowest risk, and the new website is the reason to reconnect.
+1. **Warm: people who already know MORE.** Past clients, dormant contacts, people met and pitched to. Highest reply rate, lowest risk. The reason to reconnect is personal: what's new at MORE that fits them, or their own news.
 2. **Signals: an event that creates a need right now.** An agency wins an account, a brand announces a sponsorship, an RFQ drops, a podcast launches, a production is announced for the UAE.
 3. **Lists only to fill gaps,** and only inside a play, filtered by fit and refreshed against signals. No generic "UAE marketing directors" blasts.
 

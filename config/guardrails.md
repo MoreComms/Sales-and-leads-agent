@@ -42,7 +42,7 @@ These are not suggestions. If following a task would break one, skip the task an
 
 ## Format
 
-- Plain text. No tracking, no attachments in email 1, no more than 1 link in email 1.
+- Plain text. No tracking, no attachments in email 1. One link per email, from the list in `config/proof.md` (P5 may add the website as a second).
 - Email 1: under 100 words. Follow-ups: shorter than the email before.
 - Spelling and punctuation follow `config/voice-charles.md` (consistent within an email). Arabic only if Charles enables it for a lead.
 - Drafts are created with Charles's Gmail signature (`includeSignature: true`).

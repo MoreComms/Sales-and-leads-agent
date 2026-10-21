@@ -106,7 +106,7 @@ Never contacted again. The agent only ever adds rows here.
 | `daily_reactivation_cap` | `5` | P0 drafts per day |
 | `active_plays` | `P0,P1,P2,P3,P4,P5,P6,P7,P8,P9,P10` | Plays the slate may use |
 | `boosts` | *(empty)* | e.g. `P5:+5` adds 5 weekly slots to P5 |
-| `site_live` | `no` | `yes` once the new website is published; unlocks page links and "we've relaunched" |
+| `site_live` | `no` | `yes` once the new website is published; unlocks deep page links. The launch itself is never used as a reason to reach out. |
 | `auto_scheduling` | `off` | `on` lets the agent confirm meeting times itself |
 | `personal_contacts` | *(empty)* | Emails Charles never wants the agent to touch |
 | `last_inbox_check` | | Set by the inbox check |
