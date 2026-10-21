@@ -115,11 +115,11 @@ Prefer pre-recorded human reads from the roster over AI voices. They show the cr
 >
 > Charles
 
-Every draft carries Charles's real signature, from his Gmail. Where a more relevant receipt exists outside the website, the review queue shows 2–3 options for him to pick from (see 01).
+Every draft carries Charles's real signature, from his Gmail. Where a more relevant receipt exists outside the website, the morning summary email shows 2–3 options for him to pick from (see 01).
 
 ## Replies: what the agent does with each kind
 
-Every inbound reply is classified within minutes. **Nothing auto-replies until a play has graduated** (see 05). The agent drafts; the owner approves.
+Every inbound reply is classified within the hour (the inbox check runs hourly, 09:00–18:00). **Nothing auto-replies** except follow-ups in sequences Charles started (see 05). The agent drafts; Charles approves.
 
 | Reply type | Agent action |
 |---|---|

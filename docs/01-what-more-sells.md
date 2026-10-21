@@ -72,7 +72,7 @@ The build still happens in steps (see 06), but that's about what each play needs
 ## Proof the agent may cite (decided 21 Oct)
 
 - **Free to name:** any client or project on the website ("Trusted by" and *The receipts*): Netflix (Narcos promo), Dubai Tourism (Weather Report Takeover), TikTok (FoodTok), Deliveroo (FOMO Man, Ramadan), Washmen, Novo Cinemas, Nescafé, Cadbury, Pizza Hut, STARZPLAY, Pattex, Dole, India Gate, FIX, One Million Arab Coders. Music: Yalla Nel3ab, Ramadan Made by You, Bala Ma Nhes, Alf Rooh and the rest of the work list.
-- **Everything else is offered as options, never used by default.** When a more relevant example exists outside the website (e.g. Samsung via Craft for an agency producer, Amazon Now's sonic identity for a quick-commerce brand), the draft shows Charles **2–3 personalisation options** to pick from in the review queue. Nothing off the website goes out without his tap.
+- **Everything else is offered as options, never used by default.** When a more relevant example exists outside the website (e.g. Samsung via Craft for an agency producer, Amazon Now's sonic identity for a quick-commerce brand), the draft shows Charles **2–3 personalisation options** to pick from in the morning summary email. Nothing off the website goes out without his pick.
 
 ## Price anchors the agent may mention (or must not)
 

@@ -22,7 +22,7 @@ Every first email to a new person is approved by a human, permanently. That is t
 | Level | The agent… | Who presses send |
 |---|---|---|
 | **L0 Research** | Finds and researches; no drafts | — |
-| **L1 Drafts** | Writes drafts into the sender's Gmail or the dashboard | Human, from their own mailbox |
+| **L1 Drafts** | Writes drafts into Charles's Gmail | Human, from their own mailbox |
 | **L2 Approve the sequence** | Writes the whole sequence; the owner approves it once; follow-ups go out on schedule unless the contact replies | System, after approval |
 | **L3 Auto logistics** | Also handles scheduling replies ("Tuesday works" → books it and confirms) | System |
 
@@ -41,7 +41,7 @@ Every first email to a new person is approved by a human, permanently. That is t
 - **Low, human volumes:** per-sender caps (rule 8), spread across the working day rather than sent in bursts, so it looks exactly like a person emailing.
 - **Hand-picked recipients only** (rule 9). Highly relevant emails get replies, not spam clicks. Replies are what build domain reputation.
 - **Authentication checked in week 0:** SPF, DKIM and DMARC on wedomore.com, which couldn't be checked from this environment. Google Workspace DKIM should be on; DMARC set to at least monitoring with reports.
-- **Monitoring:** Google Postmaster Tools for wedomore.com, plus our own bounce and complaint tracking in the dashboard.
+- **Monitoring:** bounce and complaint tracking in the agent's sheet (2 bounces in a day pauses everything automatically), plus Google Postmaster Tools for wedomore.com, checked by hand.
 - **Every address verified** before sending. Unverifiable (catch-all) addresses are skipped unless the account is Tier A and the owner approves. Bounces stay under 2%; complaints at effectively zero (Gmail's hard limit is 0.3%).
 - **Plain text,** written like a personal email. No open-tracking pixels, no tracked links, no attachments in the first email.
 - **A one-click unsubscribe header plus a plain opt-out line** on every email to a new contact ("Not relevant? Reply 'no' and I won't email again.").
@@ -65,7 +65,7 @@ Every first email to a new person is approved by a human, permanently. That is t
 - The suppression list is hashed and kept permanently, so we never re-contact someone who opted out.
 - Every contact carries a note of where we got their details and why they're relevant.
 - Vendors that process personal data (sending platform, enrichment, database) sign data processing terms.
-- Anyone can ask what we hold and have it deleted. The dashboard has a one-click "forget this person".
+- Anyone can ask what we hold and have it deleted: Charles replies "forget [email]" to any agent summary, and the agent removes their rows and adds them to Suppression.
 
 ## AI-specific safeguards
 

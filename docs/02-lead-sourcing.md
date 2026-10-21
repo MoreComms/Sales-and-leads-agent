@@ -47,7 +47,7 @@ Ranked by how well a correctly timed contact converts, and how hard it is to det
 | 2 | **Entertainment or tourism RFQ/tender** | P9 | Alert emails from Tahweel (Dubai Holding), Dubai eSupply, ADGPG, federal DPP, Etimad, routed to a dedicated inbox the agent reads | Free (registration needed) | Medium |
 | 3 | **Ramadan 2027 window** (Ramadan expected ~8 Feb 2027; budgets lock Oct–Jan) | P5, P1, P2 | Calendar trigger + last year's Ramadan advertisers and series sponsors | Free | Easy |
 | 4 | **Brand announces a sponsorship or content partnership** (they'll need activation content) | P5, P4 | Zawya, WAM, Dubai Media Office, Google News RSS, GDELT | Free | Easy–medium |
-| 5 | **New CMO, head of partnerships or head of content** (first 90 days = roster review) | P5, P4, P2 | Press appointment notices; Apollo job-change data; Sales Navigator alerts (human-checked) | Included in Apollo | Medium |
+| 5 | **New CMO, head of partnerships or head of content** (first 90 days = roster review) | P5, P4, P2 | Press appointment notices; LinkedIn (human-checked) | Free | Medium |
 | 6 | **International shoot announced for UAE/KSA** (Abu Dhabi rebate 35–50%, Saudi up to 60%) | P3 | Abu Dhabi Film Commission/CMA and Saudi Film Commission news, KFTV, Screen, Variety/Deadline | Free | Medium |
 | 7 | **Streamer or broadcaster commissioning** (MBC/Shahid, OSN+, Netflix MENA, Thmanyah) | P3 (dubbing, Atmos, promos) | BroadcastPro ME, Señal News, slate announcements; DICM in November | Free | Medium (low volume; human judgement) |
 | 8 | **New podcast or creator channel in UAE/KSA** | P7, P10 | Apple Podcasts search API (store ae/sa), Podcast Index, YouTube Data API | Free | Easy |
@@ -63,9 +63,10 @@ Ranked by how well a correctly timed contact converts, and how hard it is to det
 
 For every account that clears scoring, the agent finds the buyer titles the play defines (for example P1: *Head of Production, Producer, TV/Radio Producer, Integrated Producer*):
 
-1. **Search:** Apollo People Search (free with a master API key; returns names, titles and LinkedIn URLs, no emails).
-2. **Email waterfall:** Apollo enrichment, then Prospeo, then Findymail (pay only for verified finds).
-3. **Verification:** MillionVerifier on every address. Addresses on catch-all domains (which can't be verified) are skipped unless the account is Tier A and the owner approves. Every bounce counts against wedomore.com.
+1. **Look where we already have it:** the MORE – CRM, Charles's Gmail history, the 2025 ledger.
+2. **Then public sources:** the company's website and team page, press releases, award credits, LinkedIn.
+3. **Only confident work addresses get a draft.** Otherwise the lead becomes a "LinkedIn it" note for Charles. Every bounce counts against wedomore.com.
+4. **Optional later:** MillionVerifier (~$5–10/month at our volume) to verify brand-new addresses before Charles sends, and a paid finder (Apollo or Findymail) if the find rate turns out too low. No paid tools at launch (decided 21 Oct).
 4. **Gaps:** if no verified email is found, the contact goes to a LinkedIn task for a human.
 
 Expect a lower find rate than in the US: **about 50–65% verified [est.]**. Expat turnover makes data go stale fast. **Before committing to vendors, we run 300 known UAE/KSA contacts (from the CRM and ledger) through 3–4 providers** and pick on measured fill and bounce rates.

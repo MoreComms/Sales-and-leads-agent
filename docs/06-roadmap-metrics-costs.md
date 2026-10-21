@@ -1,90 +1,62 @@
-# 06 · Roadmap, metrics and costs
+# 06 · Roadmap, metrics and costs (lightweight build)
 
-Dates assume we agree the plan this week. Ramadan 2027 is expected around 8 February, and brands lock Ramadan budgets in Q4. So **Ramadan is a strong "now" signal across plays from today through January**, and the roadmap gets the full slate running before mid-December.
+Ramadan 2027 is expected around 8 February, and brands lock their Ramadan budgets in Q4. So **Ramadan is a strong "now" signal across plays from today through January**, and the goal is to have the agent running daily well before December.
 
-## Phases
+## Timeline
 
-### Week 0 · Decide and set up (21 Oct – 31 Oct)
-- Agree the decisions in [07-decisions.md](07-decisions.md).
-- **Check wedomore.com's email authentication** (SPF, DKIM, DMARC) and set up Google Postmaster Tools. No new domains are needed.
-- Register or confirm vendor accounts on Tahweel (Dubai Holding), Dubai eSupply, ADGPG and the federal Digital Procurement Platform, and route their alert emails to one inbox.
-- Charles grants access to knowmore@wedomore.com (for incoming requests) and confirms who receives the website form's emails.
-- Charles opts in: Gmail read access for reactivation and voice learning, and calendar access for scheduling. He is the only sender for the case study.
-- Collect assets: the current deck link, showreel, studio walkthrough, tagged voice reels, and the slate one-liners that can be shared.
-
-### Phase 1 · Foundation and warm plays (3 Nov – 21 Nov)
-- Database, worker, dashboard v1 (review queue), audit log, kill switch.
-- Import and dedupe **MORE – CRM**; add play, agent status, thread link and opt-out columns; switch on two-way sync.
-- Gmail, Calendar and Sheets integrations; researcher, writer and critic; sender voice guides drafted and approved.
-- **P0 Reactivation live at L1:** drafts land in each sender's Gmail, starting with the ledger's past clients.
-- **First P5 drafts from mid-November:** research and one-page format ideas for the highest-scoring brands in [08](08-ramadan-target-brands.md), at P5's normal share of the slate, so Ramadan pitches land while budgets are still open.
-- Incoming requests (knowmore@wedomore.com and the website form) triaged to Charles with draft replies.
-- Email alerts to Charles: drafts ready, hot replies, meetings booked.
-- Reply triage v1: classify and draft; humans send.
-
-### Phase 2 · Signals and targeted new contacts (24 Nov – 19 Dec)
-- Signal collectors: agency news (account wins and moves), the tender alert inbox, podcast launches, film-commission news.
-- Contact-data vendor pilot on 300 known contacts, then the email waterfall and verification go live.
-- Approved sequences sent from Charles's wedomore.com mailbox, with caps, pacing, follow-ups and stop rules.
-- Scheduling from Charles's calendar, studio-visit invites, prep briefs.
-- **The balanced weekly slate goes live:** P1–P8 share the 40 new contacts a week evenly (about 5 each). P9 Tender radar live (L0).
-- Weekly report v1, per play.
-
-### Phase 3 · Expand and learn (January 2027)
-- Ramadan production season: agency signals spike, and the balanced slate absorbs them automatically by moving spare slots to the strongest leads.
-- P10 Creator sourcing (suggestions for Charles; Instagram DMs stay human).
-- LinkedIn task queue (human-sent); WhatsApp one-tap drafts and opt-in flow.
-- Learning loop: weekly edit-pattern summaries leading to proposed template changes.
-- Plays that earn it move up a level (drafts → approved sequences → automatic scheduling replies); Arabic drafts with native review.
-
-### Phase 4 · Ramadan and beyond (February 2027 on)
-- During Ramadan: greetings and nurture only, no new sequences to new contacts; meetings and proposals continue.
-- After Eid: review the case study's results with Charles and decide whether Daniel, Jojo or Elsa join as senders, which raises the weekly cap.
-- KSA outreach plan once SDAIA's final rules are out.
-- CRM review: keep the sheet, or move the pipeline to ClickUp or HubSpot.
+| When | What |
+|---|---|
+| **21 Oct (done)** | Agent instructions, settings and Charles's voice guide written. The **MORE Sales Agent** sheet created in Charles's Drive. First batch of drafts prepared in his Gmail for review. |
+| **After Charles reviews the first batch** | Tune the voice guide and templates from his edits, then **switch on the schedules**: signals scan, morning slate, hourly inbox check, evening wrap, Friday report. |
+| **Weeks 1–2** | About 8 new drafts a day across plays, plus reactivations. Charles steers by replying to the summary emails ("3B", "skip 4", "too formal"). First weekly report on Friday. |
+| **November** | Steady state. Ramadan branded-content pitches go to the brands in [08](08-ramadan-target-brands.md) within P5's share. Optional: email verification if any bounces appear; write-back to the MORE – CRM for Charles's own rows if he wants it. |
+| **Ramadan (~8 Feb – 9 Mar 2027)** | No new contacts. Reactivations, replies and running follow-ups continue in a gentler tone. |
+| **After Eid** | Review the case study with Charles: results per play, what he changed, time spent. Then decide whether Daniel, Jojo or Elsa join as senders, and whether MORE ever needs the full build. |
 
 ## How we'll measure it
 
-| Kind | Metric | Initial target [est., recalibrated after 4 weeks of data] |
+| Kind | Metric | Initial target [est., recalibrated after 4 weeks] |
 |---|---|---|
-| Quality | Draft approval rate with light or no edits | ≥80% by end of Phase 1, ≥90% to graduate a play |
-| Quality | Untraceable claims reaching a human | 0 |
-| Outcome | **Reply rate, P0 Reactivation** | 25–40% |
-| Outcome | **Reply rate, Tier A signal sends** | 10–20% (higher than typical cold email because only hand-picked leads are contacted) |
-| Outcome | Reply rate, Tier B with a fresh signal | 6–10% |
-| Outcome | Contacted accounts that book a meeting (signal plays) | 3–6% |
-| Outcome | Meetings booked and held, opportunities created, AED pipeline, won revenue: per play, per owner | Baseline in Phase 1 |
-| Health | Bounce rate | <2% |
-| Health | Spam complaints | <0.1% |
-| Health | Unsubscribe rate | <1% per send |
-| Team | Time Charles spends reviewing | ~20 minutes a day (about 8 new drafts plus reactivation drafts and replies) |
+| Quality | Drafts Charles sends with light or no edits | ≥80% by week 3 |
+| Quality | Drafts with an untraceable claim | 0 |
+| Outcome | Reply rate, P0 reactivation | 25–40% |
+| Outcome | Reply rate, new contacts with a fresh signal | 10–20% |
+| Outcome | Contacted accounts that book a meeting | 3–6% |
+| Outcome | Meetings, opportunities, won work: per play | Baseline in weeks 1–4 |
+| Health | Bounce rate | <2% (2 bounces in a day pauses everything) |
+| Health | Opt-outs and complaints | Near zero |
+| Team | Charles's review time | ~20 minutes a day |
 
-Illustrative month once Phases 1 and 2 are running: ~200 reactivations plus ~150 hand-picked new contacts could yield **roughly 15–25 meetings [est.]**. Most of them come from reactivation at first, shifting to signal plays as reactivation is worked through. Real numbers replace this estimate after the first four weeks.
+Illustrative month once running: ~100 reactivations plus ~160 hand-picked new contacts could yield **roughly 15–25 meetings [est.]**, most from reactivation at first. Real numbers replace this after four weeks.
 
-## Running costs (USD per month, excluding build time)
+## Costs
 
-No sending platform, extra domains or extra inboxes. Everything goes through the Google Workspace mailboxes MORE already pays for.
+**$0 extra.** The agent runs on:
+- Charles's existing Claude plan (the scheduled sessions);
+- MORE's existing Google Workspace (Gmail, Calendar, Drive, Sheets).
 
-| Item | Phase 1 (warm only) | Steady state (~150–250 new contacts/mo + reactivation) |
-|---|---|---|
-| Database, worker, hosting (Supabase, Trigger.dev, Cloud Run) | ~45 | ~45 |
-| Claude API (Opus 5.5: research, writing, checking, replies; caching + Batch where possible) [est.] | 100–200 | 200–400 (fewer leads, deeper research per lead) |
-| Contact data + verification (Apollo, Findymail, MillionVerifier; Prospeo optional) | — | ~110–160 |
-| Signals (TheirStack, Apify optional; news, tenders and podcasts are free) | — | 0–90 |
-| WhatsApp (after opt-in only) | — | ~5 |
-| **Total [est.]** | **~$145–245** | **~$360–700** |
+There are no servers, no database and no subscriptions.
 
-For comparison, AI-SDR SaaS runs from about $900/month (AiSDR, capped at 1,200 messages) to about $3,750/month (11x), without MORE's voice, Gulf data or approval gate. Annual billing takes 15–20% off most tool lines. Re-check every vendor price at signup; these are October 2026 third-party figures.
+Optional later, only if the numbers ask for it:
+- **Email verification** (MillionVerifier): ~$5–10/month at our volume, to check brand-new addresses before Charles sends.
+- **A paid email finder** (Apollo or Findymail): $50–60/month, only if too many good leads end up as "LinkedIn it".
+
+**Usage note:** about 13 short scheduled runs per working day:
+- 1 signals scan;
+- 1 morning slate;
+- 10 hourly inbox checks;
+- 1 evening wrap.
+
+They count against Charles's Claude plan. If they ever hit its limits, the inbox check drops to every two hours.
 
 ## Risks and mitigations
 
 | Risk | Mitigation |
 |---|---|
-| Gulf contact data is patchy and goes stale | Vendor pilot before buying; waterfall + verification; LinkedIn fallback; warm-first |
-| Damage to wedomore.com's sender reputation (it carries all client email too) | Hand-picked leads only; per-sender caps (10 new a day, 40 a week); verification; plain text; Postmaster Tools monitoring; automatic kill switch |
-| Legal exposure (UAE/KSA PDPL) | Charles has confirmed the legal position; UAE-first; no cold KSA at launch; instant opt-out; source records kept for every contact |
-| An AI-sounding or wrong message hurts the brand | A human approves every first touch; claim tracing; critic; voice guides from real sent mail |
-| Owners don't have time to review | Mobile review queue, Gmail drafts, batch approve, ~15 minutes a day; volume matched to review capacity |
-| The 2026 market downturn | Lead with cheaper and faster offers; government entertainment and tourism focus; real estate and hotels on a 2027 watchlist |
-| Relationship culture resists cold outreach | Warm-first, studio visits as the default ask, WhatsApp and phone only from humans |
-| Vendor lock-in | Sending stays in MORE's own Google Workspace; the data lives in MORE's database; every vendor has a fallback |
+| Damage to wedomore.com's reputation (it carries all client email too) | Hand-picked leads only; caps of 10 new a day and 40 a week; work addresses only; plain text; automatic pause on bounces |
+| A wrong or AI-sounding email | Charles sends every first email himself; claim tracing; voice guide built from his real emails, refined from his edits |
+| Charles doesn't have time to review | About 8 drafts a day, all in Gmail; new drafts halve automatically if more than 15 are waiting |
+| A scheduled run fails or misses something | The next hourly run catches up; errors are emailed to Charles; everything is logged in the sheet |
+| Claude plan usage limits | Light runs that exit when there's nothing new; inbox check can drop to every two hours |
+| Gulf contact data is patchy | Warm-first; CRM and Gmail history before the web; "LinkedIn it" fallback; paid finder only if needed |
+| 2026 market downturn | Lead with audio, adaptation and studio offers; government entertainment and tourism focus; real estate and hotels on a 2027 watchlist |
